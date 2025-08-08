@@ -33,3 +33,8 @@ let iva = function () {
     let porcentajeFijoIva = 19;
     return porcentajeFijoIva;
 }
+//funcion flecha
+let subtotal = (consumo, tarifa) => {
+    return consumo * tarifa;
+}
+
