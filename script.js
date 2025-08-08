@@ -24,3 +24,8 @@ function tarifaBase () {
     let tarifa = 620;
     return tarifa;
 }
+//funcion de expresion
+let cargoFijo = function () {
+    let cargo = 3500;
+    return cargo;
+}
