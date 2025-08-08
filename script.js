@@ -34,7 +34,6 @@ let iva = function () {
     return porcentajeFijoIva;
 }
 //funcion flecha
-let subtotal = (consumo, tarifa) => {
-    return consumo * tarifa;
-}
+const calcularSubtotal = () => consumoMensual()* tarifaBase();
+const calcularIva = () =>  valorIVA () * calcularSubtotal() / 100;
 
