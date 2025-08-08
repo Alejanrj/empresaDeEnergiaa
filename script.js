@@ -38,3 +38,13 @@ const calcularSubtotal = () => consumoMensual()* tarifaBase();
 const calcularIva = () =>  valorIVA () * calcularSubtotal() / 100;
 const calcularTotal = () => calcularSubtotal() + calcularIva() + cargoFijo();
 
+let imprimirFactura  = function () {
+    console.log("Consumo mensual (kwh):", consumoMensual());
+    console.log ("Tarifa base (kwh):", tarifaBase());
+    console.log ("Cargo fijo por servicio:", cargoFijoServicio());
+    console.log ("IVA (%):", valorIVA());
+    console.log ("Subtotal:", calcularSubtotal());
+    console.log ("Total a pagar:", totalPagar());
+}
+imprimirFactura();
+
