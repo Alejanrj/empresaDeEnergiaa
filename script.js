@@ -29,3 +29,7 @@ let cargoFijo = function () {
     let cargo = 3500;
     return cargo;
 }
+let iva = function () {
+    let porcentajeFijoIva = 19;
+    return porcentajeFijoIva;
+}
