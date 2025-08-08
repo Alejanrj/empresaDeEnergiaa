@@ -20,3 +20,7 @@ function consumoMensual () {
     let consumo = 410;
     return consumo;
 }
+function tarifaBase () {
+    let tarifa = 620;
+    return tarifa;
+}
