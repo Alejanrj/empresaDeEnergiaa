@@ -36,4 +36,5 @@ let iva = function () {
 //funcion flecha
 const calcularSubtotal = () => consumoMensual()* tarifaBase();
 const calcularIva = () =>  valorIVA () * calcularSubtotal() / 100;
+const calcularTotal = () => calcularSubtotal() + calcularIva() + cargoFijo();
 
